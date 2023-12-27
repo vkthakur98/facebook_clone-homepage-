@@ -1,0 +1,93 @@
+*
+{
+    background-color: #F0F2F5;
+}
+
+.main-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+}
+
+.main-container img
+{
+    width:25vw;
+    height: inherit;
+    margin-left:-40px;
+}
+
+.main-container p
+{
+    margin-top:-20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.main-container input
+{
+    width:28vw;
+    padding:15px;
+    border:1px solid lavender;
+    background-color: white;
+    border-radius: 10px;
+    font-size:20px;
+}
+
+.login-cred
+{
+    border:2px solid lavender;
+    background-color: white;
+    border-radius:10px;
+    padding: 15px;
+    width:30vw;
+    margin-left:30px;
+    margin-top: 30px;
+
+}
+
+span
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 60px;
+   
+}
+
+.submit-btn
+{
+    cursor: pointer;
+    width:30vw;
+    background-color: #1877F2;
+    padding:15px;
+    border:1px solid lavender;
+    border-radius: 10px;
+    font-size:20px;
+    color:white;
+    font-weight: bold;
+}
+
+.newac-btn
+{
+    padding: 15px;
+    background-color: #42B72A;
+    color:white;
+    font-weight: bold;
+    margin-left:90px;
+    border-radius: 10px;
+    font-size: 20px;
+    border:1px solid lavender;
+}
+
+a{
+    margin-left: 130px;
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: #1877F2;   
+}
+
+.main-container input:focus
+{
+    outline:1px solid #1877F2;
+}
+
